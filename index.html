@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="ru"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Asset guide​, obj_mob, behavior, team​, ​_speed​, ​sprite_up/down/side, ​my_path, ​hp, ​can_block, ​untouchable, ​can_parry, ​indestructibility, ​Functions">
+    <meta name="description" content="">
+    <title>Manual</title>
+    <link rel="stylesheet" href="style2.css" media="screen">
+<link rel="stylesheet" href="style.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 6.0.3, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Manual"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Страница 1">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-home-page="Страница-1.html" data-home-page-title="Страница 1" data-path-to-root="./" data-include-products="true" class="u-body u-xl-mode" data-lang="ru"><header class="u-align-center-xs u-header u-palette-3-light-2 u-header" id="sec-275c" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-default u-text-1">Asset guide<span style="font-weight: 700;"></span>
+        </h1>
+      </div></header>
+    <section class="u-clearfix u-grey-10 u-section-1" id="sec-5f72">
+      <div class="u-clearfix u-sheet u-valign-bottom u-sheet-1">
+        <p class="u-align-center u-text u-text-1"> To begin with, thank you for buying this asset. Its creation cost me a lot of strength and nerves. If you still have questions, do not hesitate and write to the reviews and email in the profile<br>Let's start with the objects<br>
+        </p>
+        <img class="u-expanded-width u-image u-image-contain u-image-default u-image-1" src="images/11388924-0.png" alt="" data-image-width="4754" data-image-height="1927">
+      </div>
+    </section>
+    <section class="u-clearfix u-image u-shading u-section-2" id="sec-a200">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-valign-top-sm u-valign-top-xs u-container-layout-1">
+                  <h2 class="u-custom-font u-font-roboto u-text u-text-black u-text-1">obj_mob</h2>
+                  <img class="u-expanded-width u-image u-image-default u-image-1" src="images/18-11-20230937582.jpg" alt="" data-image-width="1607" data-image-height="1038">
+                </div>
+              </div>
+              <div class="u-container-style u-layout-cell u-right-cell u-shape-rectangle u-size-30 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2">
+                  <p class="u-align-center u-text u-text-black u-text-2"> This object is the main one in the package. We will&nbsp;<br>call it "entity". The entity has several<br>&nbsp;customizable variables&nbsp;that can be<br>&nbsp;configured directly in the engine. For this<br>&nbsp; &nbsp; &nbsp; &nbsp; you need to transfer the entity to the room and select it. At the very bottom in the variables menu they can be<br>&nbsp; &nbsp; &nbsp; &nbsp; changed to suit your taste<br>&nbsp; &nbsp; &nbsp; &nbsp; Here are a few of them:
+                  </p>
+                  <ul class="u-align-center u-custom-font u-custom-list u-font-roboto u-text u-text-black u-text-3">
+                    <li>
+                      <div class="u-list-icon">
+                        <div>●</div>
+                      </div> behavior
+                    </li>
+                    <li>
+                      <div class="u-list-icon">
+                        <div>●</div>
+                      </div>team
+                    </li>
+                    <li>
+                      <div class="u-list-icon">
+                        <div>●</div>
+                      </div>_speed<br>
+                    </li>
+                    <li>
+                      <div class="u-list-icon">
+                        <div>●</div>
+                      </div>sprite_index<br>
+                    </li>
+                    <li>
+                      <div class="u-list-icon">
+                        <div>●</div>
+                      </div>sprite_up<br>
+                    </li>
+                    <li>
+                      <div class="u-list-icon">
+                        <div>●</div>
+                      </div>sprite_down<br>
+                    </li>
+                    <li>
+                      <div class="u-list-icon">
+                        <div>●</div>
+                      </div>sprite_side<br>
+                    </li>
+                    <li>
+                      <div class="u-list-icon">
+                        <div>●</div>
+                      </div>indestructibility<br>
+                    </li>
+                    <li>
+                      <div class="u-list-icon">
+                        <div>●</div>
+                      </div>
+                      <span style="font-weight: 700;"></span>my_path<br>
+                    </li>
+                    <li>
+                      <div class="u-list-icon">
+                        <div>●</div>
+                      </div>hp
+                    </li>
+                    <li>
+                      <div class="u-list-icon">
+                        <div>●</div>
+                      </div>view_direction<br>
+                    </li>
+                    <li>
+                      <div class="u-list-icon">
+                        <div>●</div>
+                      </div>can_block
+                    </li>
+                    <li>
+                      <div class="u-list-icon">
+                        <div>●</div>
+                      </div>can_parry
+                    </li>
+                    <li>
+                      <div class="u-list-icon">
+                        <div>●</div>
+                      </div>untouchable<br>
+                    </li>
+                    <li>
+                      <div class="u-list-icon">
+                        <div>●</div>
+                      </div>image_blend
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-10 u-section-3" id="sec-d99e">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-valign-top u-container-layout-1">
+                  <h2 class="u-text u-text-default u-text-1">behavior</h2>
+                  <p class="u-text u-text-default u-text-2"> This variable is responsible for the behavior of the entity. There are only 4 modes in the standard package:</p>
+                  <ul class="u-text u-text-default u-text-3">
+                    <li>player</li>
+                    <li>AI_lame</li>
+                    <li>AI_medium</li>
+                    <li>AI_pro</li>
+                    <li>AI_example</li>
+                  </ul>
+                  <div class="u-video u-video-contain u-video-1">
+                    <div class="embed-responsive embed-responsive-1">
+                      <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/xSS-INO4Ahw?mute=1&amp;showinfo=0&amp;controls=0&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2">
+                  <p class="u-text u-text-default u-text-4"> The behavior of the player turns the bot into a key-controlled WASD entity. The controls are extremely simple:<br>&nbsp; &nbsp; &nbsp; &nbsp; WASD -movement<br>&nbsp; &nbsp; &nbsp; &nbsp; shift - sneak<br>&nbsp; &nbsp; &nbsp; &nbsp; LMB - kick<br>&nbsp; &nbsp; &nbsp; &nbsp; control - put block.&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; To successfully put a block - point the mouse at the opponent so that the line from you to the mouse<br>coincides with line up from you<br>&nbsp;to the attacker and press control.<br>&nbsp; &nbsp; &nbsp; &nbsp; The block lasts only 30 frames and recharges the same amount. With a successful block, the delay disappears<br>and you can put it back on immediately.<br>&nbsp; &nbsp; &nbsp; &nbsp;Under standard conditions<br>you will be thrown some distance away, but if you put a block at the last moment, you will parry the enemy,<br>provided the can_parry variable is activated. The enemy<br>it will throw him back, and during the rollback he will receive triple damage from melee attacks.&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp;Other items in<br>&nbsp;the list&nbsp;- AI levels. AI can be changed in the ai_behavior script, and the items in the variable editor.&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp;IMPORTANT NOTE!!! The items are written in a strings, so you should write the&nbsp;names inin quotation marks, for example "AI_lvl_1".
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-4" id="sec-81b8">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-container-layout-1">
+                  <h2 class="u-text u-text-default u-text-1">team<span style="font-weight: 700;"></span>
+                  </h2>
+                  <p class="u-text u-text-default u-text-2"> The team variable is also presented as a list of possible options.&nbsp;It represents a label for entities.&nbsp;There are three points:</p>
+                  <ul class="u-text u-text-default u-text-3">
+                    <li>team_player</li>
+                    <li>team_enemy</li>
+                    <li>peaceful_penguin</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2">
+                  <p class="u-text u-text-default u-text-4"> In the standard package, if the team variable is similar to yours, the entity will become your ally, and if it is different, it will become your enemy accordingly. But not with the peaceful_penguin clause. These guys will never attack you, or the enemies, or them they will never pay attention, and in the case of they won't get angry at an accidental hit :3. You can set yourself any item, then entities with they won't attack you. It can also be changed during development and the contents of the list can be changed in the object editor.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-video u-video-contain u-video-1">
+          <div class="embed-responsive embed-responsive-1">
+            <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/UzLajiuBc_4?mute=0&amp;showinfo=0&amp;controls=0&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skrollable u-clearfix u-grey-10 u-section-5" id="sec-f918">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xs u-text-1"> _speed<span style="font-weight: 700;"></span>
+        </h2>
+        <h2 class="u-text u-text-2"> sprite_up/down/side</h2>
+        <p class="u-text u-text-3"> These three variables are responsible for changing the sprite when changing direction in the appropriate direction. Just select sprites by clicking on the "Select resource" button and select the sprite you are interested in. Note: in the sprite_side variable, you should select a sprite directed to the left.</p>
+        <p class="u-text u-text-4"> This variable is responsible for the speed of the object's movement through control, along paths, etc. It can also be changed in the code editor during the game</p>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-6" id="sec-794b">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-container-layout-1">
+                  <h2 class="u-text u-text-default u-text-1"> my_path</h2>
+                  <p class="u-text u-text-default u-text-2"> The variable responsible for the patrol path. If nothing is selected, the entity will freeze in place</p>
+                </div>
+              </div>
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2">
+                  <h2 class="u-text u-text-default u-text-3"> hp</h2>
+                  <p class="u-text u-text-default u-text-4"> Responsible for the number of health points of the entity. In case of zeroing of health, not the player has theentity self-destructs</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-10 u-section-7" id="sec-daba">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-1">
+                <h2 class="u-text u-text-1"> can_block</h2>
+                <p class="u-text u-text-2"> Can an entity put a block?</p>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-2">
+                <h2 class="u-text u-text-3"> untouchable</h2>
+                <p class="u-text u-text-4"> Can objects do damage to you? Can be used in dash</p>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-3">
+                <h2 class="u-text u-text-5"> can_parry</h2>
+                <p class="u-text u-text-6"> Can an entity parry a blow?</p>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-4">
+                <h2 class="u-text u-text-7"> indestructibility</h2>
+                <p class="u-text u-text-8"> Can an entity knock you down with a punch? When the checkbox is enabled, this entity cannot be pushed by a normal attack</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-8" id="sec-d7a4">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-align-center u-text u-text-1"> Functions</h2>
+        <p class="u-align-center u-text u-text-2"> Functions are one of the most important things in this project. There are 11 functions available to use without the risk of breaking game.</p>
+        <div class="custom-expanded u-align-left u-clearfix u-custom-html u-custom-html-1">
+          <li>slash_attack()</li>
+          <li>blast_attack()</li>
+          <li>bullet_attack()</li>
+          <li>walk_towards_object()</li>
+          <li>run_towards_object()</li>
+          <li>nearest_enemy()</li>
+          <li>stop()</li>
+          <li>animate()</li>
+          <li>Up()</li>
+          <li>Down()</li>
+          <li>Left()</li>
+          <li>Right()</li>
+          <li>Up_shift()</li>
+          <li>Down_shift()</li>
+          <li>Left_shift()</li>
+          <li>Right_shift()</li>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-10 u-section-9" id="sec-c2e7">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h4 class="u-text u-text-1"> slash_attack()</h4>
+        <div class="custom-expanded u-clearfix u-custom-html u-custom-html-1">
+          <p>This function forces the selected object to attack in a certain direction, and it does not matter whether the
+        entity
+        is it or a completely different object <br> parent_id (default caller id) attacker id <br> trg_x/y (default mouse position) this is the position that the attack will be directed at <br> damage (default is 30) the damage inflicted by the attack <br>
+            <br> sprite (by default _spr_slash) the sprite used by the target of the attack <br> blockable (default is true) is it possible to block this attacker <br> hit_power (default 8) attack drop power <br> hit_time (default is 8) the duration of the attack drop <br> sound_hit (default is noone) the sound played when the entity is hit. Can support both arrays,
+        so are single sounds <br> sound_miss (default is noone) the sound played when the attack misses. It can support both arrays and
+        single sounds. <br>
+          </p>
+        </div>
+        <p class="u-text u-text-2"> Usage example</p>
+        <div class="u-container-style u-expanded-width-xs u-grey-80 u-group u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <p class="u-text u-text-default u-text-3">
+              <span class="u-text-palette-3-light-1"> if</span>( <span class="u-text-palette-3-light-1">mouse_check_button_pressed</span>(<span class="u-text-palette-2-base">mb_left</span>)){ <br>&nbsp; &nbsp; &nbsp; <span class="u-text-palette-3-light-1">slash_attack</span>() <br>}
+            </p>
+          </div>
+        </div>
+        <h4 class="u-text u-text-4"> How to trigger an attack for a bot?</h4>
+        <p class="u-text u-text-5"> There are two ways<br>The first is using the <span class="u-text-palette-3-dark-2" style="font-weight: 700;">slash_attack</span> function, filling in all the fields<br>This function makes any object attack instantly, suitable for the player<br>The second one is using the <span class="u-text-palette-3-dark-2" style="font-weight: 700;">push_attack_type_slash()</span> function<br>This function adds an attack to the array.&nbsp;You can try to make combinations.<br>Works only for bots<br>
+          <br>
+          <span style="font-weight: 700;">colorr</span> - the color of the attack indicator, if you don't need it - write noone<br>
+          <span style="font-weight: 700;">timer</span> - the time in milliseconds when the enemy will launch an attack<br>
+          <span style="font-weight: 700;">trg</span> is the x, y coordinate in the array, for example [0,0].&nbsp;If you insert the id of an existing object instead of an array, the attack will be directed at him<br>
+          <br>
+          <span style="font-weight: 700;">attack_type</span> - variable responsible for types of attacks<br>
+          <br>1 - Melee attack<br>2 - throw a projectile<br>3 - make the attack an "explosion"<br>4 - dash<br>
+          <br>Types of attacks will also be introduced in the future, for example laser attack<br>
+          <br>
+          <span style="font-weight: 700;">hit_animation</span> - sprite animation played by the animate function.<br>If it is set to false, there will be no animation<br>Otherwise, three more variables should be added to the command<br>
+          <br>
+          <span style="font-weight: 700;">hit_animation_down</span> - the sprite used by the object after the attack is completed in the downward direction<br>
+          <span style="font-weight: 700;">hit_animation_up</span> - the sprite used by the object after the attack is completed in the upward direction<br>
+          <span style="font-weight: 700;">hit_animation_side</span> - the sprite used by the object after the end of the attack in the direction of the side
+        </p>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-10" id="sec-febe">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h4 class="u-text u-text-default u-text-1"> bullet_attack()</h4>
+        <p class="u-text u-text-default u-text-2"> The function with the largest number of variables.<br>Releases a projectile in the direction of the target.<br>
+          <br>
+          <br>
+          <span style="font-weight: 700;">parent_id</span> (default caller id) attacker id<br>
+          <span style="font-weight: 700;">trg_x/y</span> (default mouse position) target for bullet<br>
+          <span style="font-weight: 700;">damage </span>(default is 5) the damage inflicted by the bullet<br>
+          <span style="font-weight: 700;">sprite </span>(by default spr_bullet) a sprite for a projectile<br>
+          <span style="font-weight: 700;">life_time </span>(default is 10) bullet flight time<br>
+          <span style="font-weight: 700;">bullet_speed </span>(default is 30) bullet flight speed<br>
+          <span style="font-weight: 700;">sound_start </span>(no by default) the sound played at the start of the flight<br>
+          <span style="font-weight: 700;">sound_end </span>(no by default) the sound played at the end of the flight<br>
+          <span style="font-weight: 700;">sound_slam </span>(no by default) the sound played when a bullet collides with a wall<br>
+          <span style="font-weight: 700;">sound_fly</span> (no by default) looped sound played at the start of the flight<br>
+          <span style="font-weight: 700;">sound_hit</span> (no by default) the sound played when a bullet collides with an entity<br>
+          <span style="font-weight: 700;">spread</span> (default 0) bullet spread<br>The standard command to call an attack for a bot<br>
+          <br>
+          <span style="font-weight: 700;">push_attack_type_bullet()</span>
+          <br>
+          <span style="font-weight: 700;"></span>
+        </p>
+        <p class="u-text u-text-default u-text-3">Usage exmple</p>
+        <div class="u-container-style u-expanded-width-xs u-grey-80 u-group u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <p class="u-text u-text-4">
+              <span class="u-text-palette-3-light-1"> if</span>( <span class="u-text-palette-3-light-1">mouse_check_button_pressed</span>(<span class="u-text-palette-2-base">mb_right</span>)){ <br>&nbsp; &nbsp; &nbsp; <span class="u-text-palette-3-light-1">billet_attack</span>() <br>}
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-10 u-section-11" id="sec-3610">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h4 class="u-text u-text-default u-text-1"> blast_attack()</h4>
+        <p class="u-text u-text-default u-text-2"> Deals damage to ALL nearby entities, causing them to fly away at a given speed<br>Has several variables:<br>
+          <br>
+          <span style="font-weight: 700;">parent_id</span> (default caller id) attacker id<br>
+          <span style="font-weight: 700;">radius </span>(default 300) the distance in pixels at which entities will take damage<br>
+          <span style="font-weight: 700;">damage</span> (default is 30) the damage inflicted by the attack<br>
+          <span style="font-weight: 700;">sprite</span> (no by default) the sprite used by the target of the attack<br>
+          <span style="font-weight: 700;">hit_time</span> (default is 20) the departure time of the attacked entity<br>
+          <span style="font-weight: 700;">blast_power</span> (default 30) the force with which the entity will fly away from the attacker<br>
+          <span style="font-weight: 700;">energy_sound</span> (default is noone) sound when an explosion is activated<br>
+          <span style="font-weight: 700;">blast_sound</span> (default is noone) sound when exploding<br>The standard command to call an attack for a bot<br>
+          <br>
+          <span style="font-weight: 700;">push_attack_type_blast<span style="font-weight: 400;">()</span>
+          </span>
+        </p>
+        <p class="u-text u-text-default u-text-3">Usage example</p>
+        <div class="u-container-style u-expanded-width-xs u-grey-80 u-group u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <p class="u-text u-text-default u-text-4">
+              <span class="u-text-palette-3-light-1"> if</span>( <span class="u-text-palette-3-light-1"> keyboard_check_pressed</span>(<span class="u-text-palette-2-base">vk_alt</span>)){ <br>&nbsp; &nbsp; &nbsp; <span class="u-text-palette-3-light-1">blast_attack</span>() <br>}
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-12" id="sec-16b2">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h4 class="u-text u-text-default u-text-1"> push_attack_type_dash()</h4>
+        <p class="u-text u-text-default u-text-2">
+          <span style="font-weight: 700;">WORKS ONLY FOR BOTS</span>
+          <span style="font-weight: 700;">!</span> Launches the entity to the specified coordinates/targets<br>Has several variables:<br>
+          <br>
+          <span style="font-weight: 700;">dashtype</span> (default 2) is the type of dash. 1 - jump to the coordinates without stopping in a straight line until the end of the timer<br>2 - a dash to the coordinates with a stop at the target. If an id is indicated, it moves to it<br>3 - a dash to the coordinates with a stop at the target in a straight line until the end of the timer<br>
+          <br>
+          <span style="font-weight: 700;">dashspeed</span> (default is 30) dash speed<br>
+          <span style="font-weight: 700;">dashtarget</span> (by default [target.x, target.y]) the departure time of the attacked entity<br>
+          <span style="font-weight: 700;">dashtime</span> (default is 30) duration of the dash in frames
+        </p>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-10 u-section-13" id="sec-2682">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-text u-text-default-lg u-text-default-md u-text-default-xl u-text-1">
+          <span style="font-weight: 700;">nearest_enemy(max_distance)</span>
+          <br>
+          <br>Search for the nearest enemy at a given distance. Does not react to entities outside the walls<br>
+          <br>
+          <span style="font-weight: 700;">animate(sprite_down, sprite_up, sprite_side, animation_speed)</span>
+          <br>
+          <br>Changes the sprite to the specified one depending on the direction variable<br>
+          <br>
+          <span style="font-weight: 700;">walk_towards_object(target_id,speed)/run_towards_object(target_id,speed)</span>
+          <br>
+          <br>Uses mp_grid (64/64) technology and directs the entity to the target.<br>
+          <span style="font-weight: 700;">target_id</span> - id of the target to which the entity will be go<br>
+          <span style="font-weight: 700;">speed</span> (by default, the standard speed of the entity) - the speed at which the entity will go to the goal<br>
+          <br>
+          <span style="font-weight: 700;">stop()</span>
+          <br>
+          <br>If you need to stop an entity, this function is perfect for you. Stops animations and movement along the paths.
+        </p>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-14" id="sec-6d99">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h3 class="u-text u-text-default u-text-1"> Standard package functions</h3>
+        <p class="u-text u-text-default u-text-2">
+          <span style="font-weight: 700;">mob_behavior()</span>
+          <br>This function is responsible for standard mechanics, such as the attack process, death, etc.<br>Interfering with it unnecessarily can cause errors in the package.<br>
+          <span style="font-weight: 700;">on_block()</span>
+          <br>AI action after successfully delivered block<br>
+        </p>
+        <p class="u-text u-text-default u-text-3">Usage example</p>
+        <div class="u-container-style u-expanded-width u-grey-80 u-group u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <p class="u-text u-text-4">
+              <span class="u-text-palette-3-base"></span>
+              <span class="u-text-palette-3-base">if</span> (<span class="u-text-palette-1-light-1">behavior</span> == <span class="u-text-palette-3-base">"AI_example"</span>) {<br>&nbsp; &nbsp; <span class="u-text-palette-1-light-1">pred</span> += <span class="u-text-palette-2-base">50</span>; <span class="u-text-palette-4-base">// increases concentration by 50</span>
+              <br>&nbsp; &nbsp; <span class="u-text-palette-3-base">if </span>(<span class="u-text-palette-3-base">variable_instance_get</span>(<span class="u-text-palette-1-light-1">master_id</span>, <span class="u-text-palette-3-base">"team"</span>) != <span class="u-text-palette-1-light-1">team&nbsp;</span>
+              <span class="u-text-palette-3-base">and&nbsp;</span>
+              <span class="u-text-palette-3-base">variable_instance_get</span>(<span class="u-text-palette-1-light-1">master_id</span>, <span class="u-text-palette-3-base">"team"</span>) != <span class="u-text-palette-3-base">"peaceful_penguin"&nbsp;</span>
+              <span class="u-text-palette-3-base">
+                <br>&nbsp; &nbsp; and&nbsp;
+              </span>
+              <span class="u-text-palette-1-light-1">team</span> != <span class="u-text-palette-3-base">"peaceful_penguin"</span>) {<br>&nbsp; &nbsp; &nbsp; &nbsp; <span class="u-text-palette-1-light-1">target</span> = <span class="u-text-palette-1-light-1">master_id</span>; <span class="u-text-palette-4-base">//if the team variable differs from yours, it marks the attacker's id as a target</span>
+              <br>&nbsp; &nbsp; }<br>}
+            </p>
+          </div>
+        </div>
+        <p class="u-text u-text-default u-text-5">
+          <span style="font-weight: 700;">
+            <span style="font-weight: 700;"></span>on_miss()
+          </span>
+          <br>AI action after missed hit<br>
+          <br>Usage example
+        </p>
+        <div class="u-container-style u-expanded-width u-grey-80 u-group u-group-2">
+          <div class="u-container-layout u-container-layout-2">
+            <p class="u-text u-text-6">
+              <span class="u-text-palette-3-base"></span>
+              <span class="u-text-palette-3-base">if</span> (<span class="u-text-palette-1-light-1">behavior</span> == <span class="u-text-palette-3-base">"AI_example"</span>) {<br>&nbsp; &nbsp; <span class="u-text-palette-1-light-1">pred</span> += <span class="u-text-palette-2-base">100</span>; <span class="u-text-palette-4-base">// increases concentration by 100</span>
+              <br>&nbsp; &nbsp;&nbsp;<span class="u-text-palette-3-base">if </span>(<span class="u-text-palette-3-base">variable_instance_get</span>(<span class="u-text-palette-1-light-1">master_id</span>, <span class="u-text-palette-3-base">"team"</span>) != <span class="u-text-palette-1-light-1">team&nbsp;</span>
+              <span class="u-text-palette-3-base">and&nbsp;</span>
+              <span class="u-text-palette-3-base">variable_instance_get</span>(<span class="u-text-palette-1-light-1">master_id</span>, <span class="u-text-palette-3-base">"team"</span>) != <span class="u-text-palette-3-base">"peaceful_penguin"&nbsp;</span>
+              <span class="u-text-palette-3-base">
+                <br>&nbsp; &nbsp; and&nbsp;
+              </span>
+              <span class="u-text-palette-1-light-1">team</span> != <span class="u-text-palette-3-base">"peaceful_penguin"</span>) {<br>&nbsp; &nbsp; &nbsp; &nbsp; <span class="u-text-palette-1-light-1">target</span> = <span class="u-text-palette-1-light-1">master_id</span>; <span class="u-text-palette-4-base">//if the team variable differs from yours, it marks the attacker's id as a target</span>
+              <br>&nbsp; &nbsp; }<br>}
+            </p>
+          </div>
+        </div>
+        <p class="u-text u-text-default u-text-7">
+          <span style="font-weight: 700;"> on_parry()</span>
+          <br>AI action if the hit was blocked with the parry variable activated<br>
+          <br>Usage example
+        </p>
+        <div class="u-container-style u-expanded-width u-grey-80 u-group u-group-3">
+          <div class="u-container-layout u-valign-bottom u-container-layout-3">
+            <p class="u-text u-text-8">
+              <span class="u-text-palette-3-base"></span>
+              <span class="u-text-palette-3-base">if</span> (<span class="u-text-palette-1-light-1">behavior</span> == <span class="u-text-palette-3-base">"AI_example"</span>) {<br>&nbsp; &nbsp; <span class="u-text-palette-1-light-1">pred</span> += <span class="u-text-palette-2-base">100</span>; <span class="u-text-palette-4-base">// increases concentration by 100</span>
+              <br>&nbsp; &nbsp;&nbsp;<span class="u-text-palette-3-base">if </span>(<span class="u-text-palette-3-base">variable_instance_get</span>(<span class="u-text-palette-1-light-1">master_id</span>, <span class="u-text-palette-3-base">"team"</span>) != <span class="u-text-palette-1-light-1">team&nbsp;</span>
+              <span class="u-text-palette-3-base">and&nbsp;</span>
+              <span class="u-text-palette-3-base">variable_instance_get</span>(<span class="u-text-palette-1-light-1">master_id</span>, <span class="u-text-palette-3-base">"team"</span>) != <span class="u-text-palette-3-base">"peaceful_penguin"&nbsp;</span>
+              <span class="u-text-palette-3-base">
+                <br>&nbsp; &nbsp; and&nbsp;
+              </span>
+              <span class="u-text-palette-1-light-1">team</span> != <span class="u-text-palette-3-base">"peaceful_penguin"</span>) {<br>&nbsp; &nbsp; &nbsp; &nbsp; <span class="u-text-palette-1-light-1">target</span> = <span class="u-text-palette-1-light-1">master_id</span>; <span class="u-text-palette-4-base">//if the team variable differs from yours, it marks the attacker's id as a target</span>
+              <br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span class="u-text-palette-3-base"> push_attack_type_dash<span class="u-text-white"> (</span>
+                <span class="u-text-palette-2-base">c_orange </span>
+                <span class="u-text-white">,</span>&nbsp;<span class="u-text-palette-2-base">15</span>
+                <span class="u-text-white">,</span>
+                <span class="u-text-palette-2-base">2</span>
+                <span class="u-text-white">,</span>
+                <span class="u-text-palette-2-base">30</span>
+                <span class="u-text-white">,</span>
+                <span class="u-text-palette-1-light-1">target</span>
+                <span class="u-text-white">,</span>
+                <span class="u-text-palette-2-base">30</span>
+                <span class="u-text-white">)</span>
+              </span>
+              <br>&nbsp; &nbsp; &nbsp; &nbsp; <span class="u-text-palette-3-base"> push_attack_type_slash</span>(<span class="u-text-palette-2-base">noone</span>, <span class="u-text-palette-2-base">1</span>, <span class="u-text-palette-1-light-1">target</span>, <span class="u-text-palette-2-base">30</span>) <span class="u-text-palette-4-base">//adds a dash and a special attack</span>
+              <br>&nbsp; &nbsp; }<br>}
+            </p>
+          </div>
+        </div>
+        <p class="u-text u-text-default u-text-9"> ai_behavior_step()<br>
+          <br>Function running every frame<br>
+          <br>Usage example
+        </p>
+        <div class="u-container-style u-expanded-width u-grey-80 u-group u-group-4">
+          <div class="u-container-layout u-valign-bottom u-container-layout-4">
+            <p class="u-text u-text-10">
+              <span class="u-text-palette-3-base"></span>if (behavior == "AI_example") {<br>&nbsp; &nbsp; nearest_enemy()<br>&nbsp; &nbsp; if (status == "Standing") {<br>&nbsp; &nbsp; &nbsp; &nbsp; if (animation == false and my_path == noone) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; stop()<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; }<br>&nbsp; &nbsp; if (instance_exists(target)) {<br>
+              <br>&nbsp; &nbsp; &nbsp; &nbsp; if (status == "Attack") {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (path_index == my_path) { //resets the path if it was specified in the variable my_path<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; stop()<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (distance_to_object(target) &lt; 400) {//adjusts the concentration<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (pred &lt;= 200) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; pred += 0.6;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (pred &gt; 200) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; pred += 0.4;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (attack == false) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (distance_to_point(target.x, target.y) &lt; 160) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; stop()//If the distance to the target is less than 160 pixels, the entity will stop<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (distance_to_point(target.x, target.y) &lt; 300 and distance_to_point(target.x, target.y) &gt; 150) { //if the distance to the target is less than 300 pixels, the movement to it will be slow<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; walk_towards_object(target)// if the distance is more than 150, but less than 300, the entity goes slow<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; else if (distance_to_point(target.x, target.y) &gt;= 300) {//if the distance is more than 300 pixels, the entity will move quickly<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; run_towards_object(target)<br>
+              <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; else {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; stop()<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; var _atck = irandom_range(0, 200);//generates a random number from 1 to 200<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (_atck == 1) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; push_attack_type_dash(c_white, 30, 2, 10, target, 30)<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; push_attack_type_slash(noone, 0, target, 30, spr_slash) //with variable _atck = 1 entity attacking<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (pred &gt; 0) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; pred -= 0.5;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (pred &gt;= 150 and pred &lt;= 250) { //adjusts blocks<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; block = true;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; parry = false;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; else if (pred &gt; 250) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; block = true;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (can_parry == true) { parry = false };<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; else {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; block = false;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; parry = false;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; }<br>}if (behavior == "AI_example") {<br>&nbsp; &nbsp; nearest_enemy()<br>&nbsp; &nbsp; if (status == "Standing") {<br>&nbsp; &nbsp; &nbsp; &nbsp; if (animation == false and my_path == noone) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; stop()<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; }<br>&nbsp; &nbsp; if (instance_exists(target)) {<br>
+              <br>&nbsp; &nbsp; &nbsp; &nbsp; if (status == "Attack") {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (path_index == my_path) { //resets the path if it was specified in the variable my_path<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; stop()<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (distance_to_object(target) &lt; 400) {//adjusts the concentration<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (pred &lt;= 200) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; pred += 0.6;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (pred &gt; 200) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; pred += 0.4;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (attack == false) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (distance_to_point(target.x, target.y) &lt; 160) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; stop()//If the distance to the target is less than 160 pixels, the entity will stop<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (distance_to_point(target.x, target.y) &lt; 300 and distance_to_point(target.x, target.y) &gt; 150) { <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; walk_towards_object(target)// if the distance is more than 150, but less than 300, the entity goes slow<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; else if (distance_to_point(target.x, target.y) &gt;= 300) {//if the distance is more than 300 pixels, the entity will move quickly<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; run_towards_object(target)<br>
+              <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; else {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; stop()<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; var _atck = irandom_range(0, 200);//generates a random number from 1 to 200<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (_atck == 1) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; push_attack_type_dash(c_white, 30, 2, 10, target, 30)<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; push_attack_type_slash(noone, 0, target, 30, spr_slash) //with variable _atck = 1 entity attacking<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (pred &gt; 0) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; pred -= 0.5;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (pred &gt;= 150 and pred &lt;= 250) { //adjusts blocks<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; block = true;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; parry = false;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; else if (pred &gt; 250) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; block = true;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (can_parry == true) { parry = false };<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; else {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; block = false;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; parry = false;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; }<br>}
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-e5c4"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1"> As a result of the work done, a high-quality and functional asset will be created that meets all the stated<br>requirements and expectations of the customer. This asset can be used in various game projects, including mobilegames and browser games.
+        </p>
+        <p class="u-text u-text-2">
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-white u-btn-1" data-href="mailto:palman3208@gmail.com"><span class="u-file-icon u-icon u-text-white"><img src="images/70293-83587da7.png" alt=""></span>&nbsp;My mail: palman3208@gmail.com
+          </a>
+        </p>
+      </div></footer>
+</body></html>
